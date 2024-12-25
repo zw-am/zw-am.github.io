@@ -6,13 +6,12 @@
   <title>Zhaogui Wang</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Arial', sans-serif;
       color: #333;
-      background-color: #1e1e1e;
+      background-color: #f5f5f5;
       margin: 0;
       padding: 0;
       line-height: 1.6;
-      color: #f5f5f5;
     }
 
     .info-wrap {
@@ -20,7 +19,8 @@
       flex-direction: row-reverse;
       align-items: center;
       padding: 20px;
-      background-color: #0d47a1;
+      background-color: #e3f2fd;
+      border-bottom: 2px solid #0d47a1;
     }
 
     .img img {
@@ -41,7 +41,7 @@
     .info-right h2 {
       font-size: 1.8em;
       margin-bottom: 10px;
-      color: #bbdefb;
+      color: #0d47a1;
     }
 
     .info-right p {
@@ -60,7 +60,7 @@
     h2 {
       font-size: 1.8em;
       margin-bottom: 15px;
-      color: #64b5f6;
+      color: #0d47a1;
     }
 
     ul {
@@ -73,7 +73,7 @@
     }
 
     a {
-      color: #82b1ff;
+      color: #007bff;
       text-decoration: none;
     }
 
@@ -82,9 +82,22 @@
     }
 
     .content {
-      background-color: #263238;
+      background-color: #fff;
       padding: 15px;
       border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    @media (max-width: 600px) {
+      .info-wrap {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .img img {
+        margin-left: 0;
+        margin-bottom: 15px;
+      }
     }
   </style>
 </head>
@@ -105,14 +118,14 @@
     <section>
       <h2>Educational Background</h2>
       <div class="content">
-        <p>From the tranquil surroundings of Baylor University, I embarked on a journey of discovery from August 2016 to December 2019, culminating in a Doctorate in Mechanical Engineering. My academic aspirations were further ignited during my Master's studies from August 2014 to August 2016. Prior to my international pursuits, I honed my foundational skills in Mechanical Design, Manufacturing, and Automation at the esteemed Dalian University of Technology from September 2010 to June 2014.</p>
+        <p>Dr. Wang Zhaogui obtained his Doctor of Philosophy in Mechanical Engineering from Baylor University in December 2019, following a Master’s degree in the same field from the same institution in August 2016. His foundational education was completed at Dalian University of Technology, where he earned a Bachelor’s degree in Mechanical Design, Manufacturing, and Automation in June 2014.</p>
       </div>
     </section>
 
     <section>
       <h2>Work Experience</h2>
       <div class="content">
-        <p>As an Associate Professor at Dalian Maritime University since July 2022, I continue to delve into the complexities of mechanical engineering, sharing insights and innovations. Prior to this role, I nurtured young minds as a Lecturer from February 2020 to July 2022, where my passion for teaching and research was met with an enthusiastic cohort of students.</p>
+        <p>Since July 2022, Dr. Wang has been serving as an Associate Professor at the School of Mechanical Engineering, Dalian Maritime University. Prior to this role, he contributed to the academic development of students as a Lecturer from February 2020 to July 2022, fostering a rigorous learning environment.</p>
       </div>
     </section>
 
@@ -120,11 +133,11 @@
       <h2>Research Areas</h2>
       <div class="content">
         <ul>
-          <li>Additive Manufacturing: Pioneering the future with cutting-edge techniques that meld creativity with precision.</li>
-          <li>Mechanics of Composite Materials: Exploring the depths of material potential to create stronger, lighter, and smarter solutions.</li>
-          <li>Lightweight Design: Engineering breakthroughs that redefine efficiency and resilience.</li>
-          <li>Green Manufacturing Technologies for Marine Equipment: Innovating sustainable practices that preserve our planet while advancing marine technology.</li>
-          <li>Discover more about our research group at <a href="https://SLIMarine.github.io">SLIMarine.github.io</a></li>
+          <li>Additive Manufacturing: Investigating innovative fabrication techniques that enhance production efficiency and material properties.</li>
+          <li>Mechanics of Composite Materials: Analyzing the behavior and performance of advanced composite materials under various conditions.</li>
+          <li>Lightweight Design: Developing methodologies for creating lightweight structures without compromising strength and durability.</li>
+          <li>Green Manufacturing Technologies for Marine Equipment: Promoting sustainable practices in the manufacturing of marine technologies.</li>
+          <li>For further insights, visit the SLIM research group at <a href="https://SLIMarine.github.io">SLIMarine.github.io</a>.</li>
         </ul>
       </div>
     </section>
@@ -133,10 +146,10 @@
       <h2>Research Projects</h2>
       <div class="content">
         <ul>
-          <li>[1] 2022-2024: Leading the charge in exploring new frontiers with the Youth Project of the National Natural Science Foundation of China (Project No. 52101381).</li>
-          <li>[2] 2023-2024: Pushing the boundaries of knowledge with the General Project of the China Postdoctoral Science Foundation (Project No. 2023M730455).</li>
-          <li>[3] 2023-2024: Spearheading initiatives under the Basic Scientific Research Project of the Liaoning Provincial Department of Education (Project No. LJKMZ20220366).</li>
-          <li>[4] 2020-2022: Fueling innovation through the Talent Introduction Plan of the Dalian Municipal Bureau of Human Resources and Social Security.</li>
+          <li>[1] 2022-2024: Principal Investigator for the Youth Project of the National Natural Science Foundation of China (Project No. 52101381).</li>
+          <li>[2] 2023-2024: Leading the General Project of the China Postdoctoral Science Foundation (Project No. 2023M730455).</li>
+          <li>[3] 2023-2024: Principal Investigator for the Basic Scientific Research Project of Colleges and Universities of the Liaoning Provincial Department of Education (Project No. LJKMZ20220366).</li>
+          <li>[4] 2020-2022: Principal Investigator for the Talent Introduction Plan of the Dalian Municipal Bureau of Human Resources and Social Security.</li>
         </ul>
       </div>
     </section>
@@ -146,34 +159,43 @@
       <div class="content">
         <h3>Research on Material Extrusion Additive Manufacturing</h3>
         <ul>
-          <li>[1] Unveiling the complexities of fiber-induced melt pressure fluctuations, 2024.</li>
-          <li>[2] Delving into three-dimensional polymer composite flow simulations, Polymer Composites, 2023.</li>
-          <li>[3] Advancements in statistical homogenization approaches, Additive Manufacturing, 2021.</li>
-          <li>[4] Innovative finite element modeling techniques, Composites Part B: Engineering, 2021.</li>
-          <li>[5] Exploring screw swirling effects in additive manufacturing, Composites Part B: Engineering.</li>
+          <li>[1] Awenlimobor A, Smith D E, Wang Z. Simulation of fiber-induced melt pressure fluctuations within large scale polymer composite deposition beads. Additive Manufacturing, 2024.</li>
+          <li>[2] Wang Z, Luo C, Xie Z, et al. Three-dimensional polymer composite flow simulation and associated fiber orientation prediction for large area extrusion deposition additive manufacturing. Polymer Composites, 2023.</li>
+          <li>[3] Wang Z, Smith D E, Jack D A. A statistical homogenization approach for incorporating fiber aspect ratio distribution in large area polymer composite deposition additive manufacturing property predictions. Additive Manufacturing, 2021.</li>
+          <li>[4] Wang Z, Smith D E. Finite element modelling of fully-coupled flow/fiber-orientation effects in polymer composite deposition additive manufacturing nozzle-extrudate flow. Composites Part B: Engineering, 2021.</li>
+          <li>[5] Wang Z, Smith D E. Numerical analysis of screw swirling effects on fiber orientation in large area additive manufacturing polymer composite deposition. Composites Part B: Engineering, 2021.</li>
         </ul>
         <h3>Research on Mechanics of Composite Materials</h3>
         <ul>
-          <li>[6] Graphene reinforced polyphenylene sulfide flexural properties, Polymer Engineering & Science, 2023.</li>
-          <li>[7] Analysis of viscoelastic creep responses in composites, Composite Structures, 2019.</li>
+          <li>[6] Wang Z, Xu P, Zhou K, et al. Flexural property characterization and structure analysis of graphene reinforced polyphenylene sulfide prepared via low cost pellet based material extrusion additive manufacturing. Polymer Engineering & Science, 2023.</li>
+          <li>[7] Wang Z, Smith D E. Numerical analysis on viscoelastic creep responses of aligned short fiber reinforced composites. Composite Structures, 2019.</li>
         </ul>
         <h3>Lightweight Design</h3>
         <ul>
-          <li>[8] Enhancing flexural performances using natural-inspired designs, Polymers for Advanced Technologies, 2024.</li>
-          <li>[9] Mechanical characterization of artificial structures, Materials Today Communications, 2023.</li>
+          <li>[8] Zhou K, Wang Z. Improving flexural performances of fused filament fabricated short carbon fiber reinforced polyamide composites with natural inspired structural design. Polymers for Advanced Technologies, 2024.</li>
+          <li>[9] Fang Z, Wang Z, Xiong J, et al. Numerical characterization on mechanical performances of artificial cuttlebone-like structures produced via the generative adversarial network. Materials Today Communications, 2023.</li>
         </ul>
         <h3>Green Manufacturing Technologies for Marine Equipment</h3>
         <ul>
-          <li>[10] Long-term mechanical properties of marine composites, Ships and Offshore Structures, 2024.</li>
+          <li>[10] Wang Z, Zhou K, Xu P, et al. High-temperature aging and long-term mechanical properties of polyphenylene sulfide composites for marine use. Ships and Offshore Structures, 2024.</li>
         </ul>
-        <p>In my quest for innovation, I have applied for over 10 national invention patents, with 4 already authorized by December 2024.</p>
+        <p>Dr. Wang has also applied for over 10 national invention patents, with 4 authorized as of December 2024.</p>
       </div>
     </section>
 
     <section>
       <h2>Courses Taught</h2>
       <div class="content">
-        <p>Engaging undergraduates with dynamic subjects like "Dynamic Modeling and Simulation of Mechanical Systems" (FA2020 - FA2023), "Dynamics of Mechanical Systems" (FA2024), and more. These courses are designed to spark curiosity and foster a deep understanding of mechanical systems and engineering principles.</p>
+        <p>Dr. Wang instructs a variety of undergraduate courses, including:</p>
+        <ul>
+          <li>"Dynamic Modeling and Simulation of Mechanical Systems" (FA2020, FA2021, FA2022, FA2023)</li>
+          <li>"Dynamics of Mechanical Systems" (FA2024)</li>
+          <li>"Introduction to Engineering H" (FA2020†, FA2021†)</li>
+          <li>"Introduction to Engineering Calculation H" (SP2021†, SP2022†)</li>
+          <li>"Introduction to the Finite Element Method H" (SP2023†)</li>
+          <li>"Mechanical Science Calculation H" (SP2023†, SP2024†)</li>
+        </ul>
+        <p>*FA = FALL, SP = SPRING, † Chinese Assistant Instructor</p>
       </div>
     </section>
   </main>
